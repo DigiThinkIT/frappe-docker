@@ -1,0 +1,17 @@
+{
+ "db_host": "mariadb",
+ "auto_update": false, 
+ "background_workers": 1, 
+ "developer_mode": 1, 
+ "dns_multitenant": false, 
+ "file_watcher_port": 6787, 
+ "redis_cache": "redis://localhost:11000", 
+ "redis_queue": "redis://localhost:11000", 
+ "redis_socketio": "redis://localhost:11000", 
+ "restart_supervisor_on_update": false, 
+ "restart_systemd_on_update": false, 
+ "serve_default_site": true, 
+ "shallow_clone": true, 
+ "socketio_port": 9000, 
+ "webserver_port": 8000
+}
